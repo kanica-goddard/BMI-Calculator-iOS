@@ -56,15 +56,39 @@
 		1AE30EB2261E15520034A066 /* BMI-Calculator-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1AE30EC9261E21290034A066 /* Models */,
 				1AE30EB3261E15520034A066 /* AppDelegate.swift */,
 				1AE30EB5261E15520034A066 /* SceneDelegate.swift */,
-				1AE30EB7261E15520034A066 /* ViewController.swift */,
-				1AE30EB9261E15520034A066 /* Main.storyboard */,
+				1AE30EC8261E211F0034A066 /* Views */,
+				1AE30ECA261E213C0034A066 /* Controllers */,
 				1AE30EBC261E15550034A066 /* Assets.xcassets */,
-				1AE30EBE261E15550034A066 /* LaunchScreen.storyboard */,
 				1AE30EC1261E15550034A066 /* Info.plist */,
 			);
 			path = "BMI-Calculator-iOS";
+			sourceTree = "<group>";
+		};
+		1AE30EC8261E211F0034A066 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AE30EB9261E15520034A066 /* Main.storyboard */,
+				1AE30EBE261E15550034A066 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AE30EC9261E21290034A066 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AE30ECA261E213C0034A066 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AE30EB7261E15520034A066 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
